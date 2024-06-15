@@ -1,0 +1,35 @@
+body {
+    background-color: grey;
+    font-family:Poppins,sans-serif;
+
+}
+
+.container-auth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.auth-form {
+    background-color: white;
+    padding: 30px;
+    width: 450px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    width: 100%;
+    max-width: 80%;
+    height: 200px; /* Sesuaikan tinggi sesuai kebutuhan */
+    object-fit: cover; /* Menjaga aspek gambar agar proporsi tidak terganggu */
+    border-radius: 40px;
+    overflow: hidden; 
+}
+
+.btn-gold:hover {
+    background-color: gold;
+    color: white;
+}
